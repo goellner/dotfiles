@@ -13,7 +13,6 @@ alias version="commit 'version'"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias projects="cd $HOME/code"
-alias sites="cd $HOME/Herd"
 alias p="cd $HOME/code"
 alias o="open ."
 
