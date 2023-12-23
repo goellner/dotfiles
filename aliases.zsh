@@ -2,6 +2,7 @@
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadshell="omz reload"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
+alias flushdns="sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/opt/homebrew/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
@@ -11,8 +12,10 @@ alias version="commit 'version'"
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias projects="cd $HOME/Code"
+alias projects="cd $HOME/code"
 alias sites="cd $HOME/Herd"
+alias p="cd $HOME/code"
+alias o="open ."
 
 # Laravel
 alias a="php artisan"
@@ -20,6 +23,7 @@ alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
 alias seed="php artisan db:seed"
 alias serve="php artisan serve"
+alias please="php please"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
@@ -27,6 +31,8 @@ alias cfresh="rm -rf vendor/ composer.lock && composer i"
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
+alias lois="npm run dev"
+alias plop="yarn plop"
 
 # Docker
 alias docker-composer="docker-compose"
