@@ -50,6 +50,9 @@ cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'visual-studio-code'
+cask 'vlc'
+cask 'spotify'
+cask 'appcleaner'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -69,13 +72,9 @@ mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Photobulk', id: 537211143
 mas 'AutoMute', id:1118136179
-mas 'PasteBot': id: 1179623856
-mas 'Harvest': id: 506189836
-mas 'LitteIpsum': id:405772121
-mas 'BetterSnapTool': id: 417375580
-mas 'Spark': id: 1176895641
-#mas 'PasteBot': id: 1179623856
-
-# start services
-brew services start redis
-brew services start meilisearch
+mas 'PasteBot', id: 1179623856
+mas 'Harvest', id: 506189836
+mas 'LitteIpsum', id:405772121
+mas 'BetterSnapTool', id: 417375580
+mas 'Spark', id: 1176895641
+#mas 'PasteBot', id: 1179623856
