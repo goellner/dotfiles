@@ -32,6 +32,7 @@ brew 'meilisearch'
 brew 'mysql'
 brew 'redis'
 brew 'powerlevel10k'
+brew 'composer'
 
 # Apps
 cask '1password'

@@ -85,7 +85,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(artisan git)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -117,6 +117,8 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
