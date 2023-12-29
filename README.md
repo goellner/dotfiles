@@ -35,16 +35,16 @@ After backing up your old Mac you may now follow these install instructions to s
    curl https://raw.githubusercontent.com/driesvints/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
    ```
 
-3. Clone this repo to `~/.dotfiles` with:
+3. Clone this repo to `~/dotfiles` with:
 
     ```zsh
-    git clone --recursive git@github.com:driesvints/dotfiles.git ~/.dotfiles
+    git clone --recursive git@github.com:driesvints/dotfiles.git ~/dotfiles
     ```
 
 4. Run the installation with:
 
     ```zsh
-    cd ~/.dotfiles && ./fresh.sh
+    cd ~/dotfiles && ./fresh.sh
     ```
 
 5. Start `Herd.app` and run its install process
@@ -53,7 +53,7 @@ After backing up your old Mac you may now follow these install instructions to s
 
 Your Mac is now ready to use!
 
-> 💡 You can use a different location than `~/.dotfiles` if you want. Make sure you also update the reference in the [`.zshrc`](./.zshrc#L2) file.
+> 💡 You can use a different location than `~/dotfiles` if you want. Make sure you also update the reference in the [`.zshrc`](./.zshrc#L2) file.
 
 ### Cleaning your old Mac (optionally)
 
