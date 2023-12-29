@@ -465,6 +465,9 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (
 
 defaults write com.apple.spaces "spans-displays" -bool "true"
 
+# Never open new documents in tabs.
+defaults write NSGlobalDomain AppleWindowTabbingMode manual
+
 ###############################################################################
 # Safari & WebKit                                                             #
 ###############################################################################
